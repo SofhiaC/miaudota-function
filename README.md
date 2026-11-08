@@ -38,7 +38,7 @@ npm start              # precisa do Azure Functions Core Tools (func); sobe em h
 docker run --rm -p 7071:80 sofhiachromiec/pjbl-function:v1
 ```
 
-URL na nuvem: *(preencher após o deploy)* — `https://<app>.azurewebsites.net/api/indicador-adocao`
+URL na nuvem (Azure Functions): `https://miaudota-func-agb9gabrehe6aye2.southafricanorth-01.azurewebsites.net/api/indicador-adocao` (exige a chave da função no cabeçalho `x-functions-key` ou em `?code=`).
 
 ## Testes
 
